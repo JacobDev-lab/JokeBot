@@ -5,7 +5,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const { Client, MessageEmbed } = require('discord.js');
-const config = require('./configs/config.json');
+const config = require('./Configs/config.json');
 const getMeAJoke = require('discord-jokes');
 
 client.once('ready', () => {
